@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Daily Trending SaaS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Steam Daily Trending Radar</h1>
+        <p>
+          Combines SteamSpy + Steam Store data to show both <strong>Most Popular Now</strong> and an
+          <strong>Early Breakout Radar</strong> focused on newer hot titles, coming-soon momentum, and next-fest-like
+          discovery patterns.
+        </p>
+        <button id="refreshBtn">Refresh Data</button>
+        <small id="meta"></small>
+      </header>
+
+      <section>
+        <h2>Most Popular Now</h2>
+        <div id="popularGames" class="grid"></div>
+      </section>
+
+      <section>
+        <h2>Early Breakout Radar</h2>
+        <p class="section-copy">
+          Prioritizes new/upcoming games and weights active players against game age + follower base to catch titles
+          before they become mainstream.
+        </p>
+        <div id="emergingGames" class="grid"></div>
+      </section>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

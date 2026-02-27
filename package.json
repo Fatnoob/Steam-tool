@@ -1,0 +1,11 @@
+{
+  "name": "steam-tool",
+  "version": "1.0.0",
+  "description": "Steam trending SaaS dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
