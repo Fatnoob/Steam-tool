@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Sentiment Analyzer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Steam Sentiment Analyzer</h1>
+        <p>Search a Steam game, crawl as many Steam reviews as possible, and generate detailed developer-focused sentiment insights.</p>
+      </header>
+
+      <section class="search-box">
+        <input id="gameInput" placeholder="Type a game name (e.g., Elden Ring)" />
+        <button id="analyzeBtn">Analyze Sentiment</button>
+      </section>
+
+      <section class="crawler-box">
+        <h2>Background crawler database</h2>
+        <p>Continuously crawls and stores sentiment snapshots for many games in local database storage.</p>
+        <div class="search-box">
+          <button id="startCrawlerBtn">Start Background Crawl</button>
+          <button id="refreshCrawlerBtn">Refresh Status</button>
+        </div>
+        <div id="crawlerStatus" class="card"></div>
+        <div id="storedGames" class="card"></div>
+      </section>
+
+      <section id="result" class="result"></section>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

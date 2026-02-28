@@ -1,0 +1,503 @@
+{
+  "generatedAt": "2026-02-27T18:11:53.142Z",
+  "source": "fallback",
+  "algorithm": {
+    "mostPopular": "Active players + followers + wishlist proxy, with minor freshness weighting.",
+    "emergingHits": "Strong emphasis on newness, momentum-by-age, follower conversion, and coming-soon/new-release discovery signals.",
+    "dataSources": [
+      "SteamSpy top100in2weeks",
+      "SteamSpy hot100",
+      "Steam Store featured categories (new releases + coming soon)",
+      "Steam app details"
+    ]
+  },
+  "mostPopular": [
+    {
+      "appId": 730,
+      "name": "Counter-Strike 2",
+      "ccu": 980000,
+      "followers": 4200000,
+      "wishlistSignal": 912000,
+      "releaseDate": "2023-09-27",
+      "daysOld": 900,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromTop2Weeks": true,
+        "fromHotList": true
+      },
+      "price": "Free",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+      "genres": [
+        "FPS",
+        "Competitive"
+      ],
+      "categories": [
+        "Multi-player"
+      ],
+      "shortDescription": "Iconic tactical FPS with massive daily active users.",
+      "isNewOrUpcoming": false,
+      "popularityScore": 5.9574,
+      "emergingScore": 0.3692
+    },
+    {
+      "appId": 553850,
+      "name": "HELLDIVERS 2",
+      "ccu": 320000,
+      "followers": 640000,
+      "wishlistSignal": 390000,
+      "releaseDate": "2024-02-08",
+      "daysOld": 380,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromHotList": true,
+        "fromTop2Weeks": true
+      },
+      "price": "$39.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
+      "genres": [
+        "Co-op",
+        "Action"
+      ],
+      "categories": [
+        "Online Co-op"
+      ],
+      "shortDescription": "Co-op shooter that exploded quickly after launch.",
+      "isNewOrUpcoming": false,
+      "popularityScore": 5.3969,
+      "emergingScore": 0.3856
+    },
+    {
+      "appId": 1938090,
+      "name": "Last Epoch",
+      "ccu": 89000,
+      "followers": 210000,
+      "wishlistSignal": 145000,
+      "releaseDate": "2024-02-21",
+      "daysOld": 365,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true,
+        "fromHotList": true
+      },
+      "price": "$34.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/899770/header.jpg",
+      "genres": [
+        "ARPG",
+        "Loot"
+      ],
+      "categories": [
+        "Single-player"
+      ],
+      "shortDescription": "Rapidly growing ARPG with strong player-to-follower momentum.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 4.9035,
+      "emergingScore": 0.435
+    },
+    {
+      "appId": 999992,
+      "name": "Orbital Frontier",
+      "ccu": 9600,
+      "followers": 52000,
+      "wishlistSignal": 71000,
+      "releaseDate": "2025-01-12",
+      "daysOld": 46,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true,
+        "fromHotList": true
+      },
+      "price": "$24.99",
+      "headerImage": null,
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player"
+      ],
+      "shortDescription": "Fresh release with strong follow and active-player conversion.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 4.1801,
+      "emergingScore": 0.4129
+    },
+    {
+      "appId": 315210,
+      "name": "SULFUR",
+      "ccu": 7800,
+      "followers": 24000,
+      "wishlistSignal": 30000,
+      "releaseDate": "2024-10-28",
+      "daysOld": 120,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true
+      },
+      "price": "$19.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/315210/header.jpg",
+      "genres": [
+        "Roguelite",
+        "Indie"
+      ],
+      "categories": [
+        "Early Access"
+      ],
+      "shortDescription": "Smaller title showing strong early traction relative to its size.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 3.9754,
+      "emergingScore": 0.4117
+    },
+    {
+      "appId": 999991,
+      "name": "Project Citadel Demo",
+      "ccu": 4200,
+      "followers": 38000,
+      "wishlistSignal": 62000,
+      "releaseDate": null,
+      "daysOld": 20,
+      "comingSoon": true,
+      "sourceFlags": {
+        "fromComingSoon": true,
+        "fromUpcomingList": true
+      },
+      "price": "Free Demo",
+      "headerImage": null,
+      "genres": [
+        "Action",
+        "Soulslike"
+      ],
+      "categories": [
+        "Early Access"
+      ],
+      "shortDescription": "Upcoming showcase title gathering attention ahead of launch windows.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 3.9481,
+      "emergingScore": 0.4571
+    }
+  ],
+  "emergingHits": [
+    {
+      "appId": 999991,
+      "name": "Project Citadel Demo",
+      "ccu": 4200,
+      "followers": 38000,
+      "wishlistSignal": 62000,
+      "releaseDate": null,
+      "daysOld": 20,
+      "comingSoon": true,
+      "sourceFlags": {
+        "fromComingSoon": true,
+        "fromUpcomingList": true
+      },
+      "price": "Free Demo",
+      "headerImage": null,
+      "genres": [
+        "Action",
+        "Soulslike"
+      ],
+      "categories": [
+        "Early Access"
+      ],
+      "shortDescription": "Upcoming showcase title gathering attention ahead of launch windows.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 3.9481,
+      "emergingScore": 0.4571
+    },
+    {
+      "appId": 1938090,
+      "name": "Last Epoch",
+      "ccu": 89000,
+      "followers": 210000,
+      "wishlistSignal": 145000,
+      "releaseDate": "2024-02-21",
+      "daysOld": 365,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true,
+        "fromHotList": true
+      },
+      "price": "$34.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/899770/header.jpg",
+      "genres": [
+        "ARPG",
+        "Loot"
+      ],
+      "categories": [
+        "Single-player"
+      ],
+      "shortDescription": "Rapidly growing ARPG with strong player-to-follower momentum.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 4.9035,
+      "emergingScore": 0.435
+    },
+    {
+      "appId": 999992,
+      "name": "Orbital Frontier",
+      "ccu": 9600,
+      "followers": 52000,
+      "wishlistSignal": 71000,
+      "releaseDate": "2025-01-12",
+      "daysOld": 46,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true,
+        "fromHotList": true
+      },
+      "price": "$24.99",
+      "headerImage": null,
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player"
+      ],
+      "shortDescription": "Fresh release with strong follow and active-player conversion.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 4.1801,
+      "emergingScore": 0.4129
+    },
+    {
+      "appId": 315210,
+      "name": "SULFUR",
+      "ccu": 7800,
+      "followers": 24000,
+      "wishlistSignal": 30000,
+      "releaseDate": "2024-10-28",
+      "daysOld": 120,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true
+      },
+      "price": "$19.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/315210/header.jpg",
+      "genres": [
+        "Roguelite",
+        "Indie"
+      ],
+      "categories": [
+        "Early Access"
+      ],
+      "shortDescription": "Smaller title showing strong early traction relative to its size.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 3.9754,
+      "emergingScore": 0.4117
+    },
+    {
+      "appId": 553850,
+      "name": "HELLDIVERS 2",
+      "ccu": 320000,
+      "followers": 640000,
+      "wishlistSignal": 390000,
+      "releaseDate": "2024-02-08",
+      "daysOld": 380,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromHotList": true,
+        "fromTop2Weeks": true
+      },
+      "price": "$39.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
+      "genres": [
+        "Co-op",
+        "Action"
+      ],
+      "categories": [
+        "Online Co-op"
+      ],
+      "shortDescription": "Co-op shooter that exploded quickly after launch.",
+      "isNewOrUpcoming": false,
+      "popularityScore": 5.3969,
+      "emergingScore": 0.3856
+    },
+    {
+      "appId": 730,
+      "name": "Counter-Strike 2",
+      "ccu": 980000,
+      "followers": 4200000,
+      "wishlistSignal": 912000,
+      "releaseDate": "2023-09-27",
+      "daysOld": 900,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromTop2Weeks": true,
+        "fromHotList": true
+      },
+      "price": "Free",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+      "genres": [
+        "FPS",
+        "Competitive"
+      ],
+      "categories": [
+        "Multi-player"
+      ],
+      "shortDescription": "Iconic tactical FPS with massive daily active users.",
+      "isNewOrUpcoming": false,
+      "popularityScore": 5.9574,
+      "emergingScore": 0.3692
+    }
+  ],
+  "games": [
+    {
+      "appId": 730,
+      "name": "Counter-Strike 2",
+      "ccu": 980000,
+      "followers": 4200000,
+      "wishlistSignal": 912000,
+      "releaseDate": "2023-09-27",
+      "daysOld": 900,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromTop2Weeks": true,
+        "fromHotList": true
+      },
+      "price": "Free",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+      "genres": [
+        "FPS",
+        "Competitive"
+      ],
+      "categories": [
+        "Multi-player"
+      ],
+      "shortDescription": "Iconic tactical FPS with massive daily active users.",
+      "isNewOrUpcoming": false,
+      "popularityScore": 5.9574,
+      "emergingScore": 0.3692
+    },
+    {
+      "appId": 553850,
+      "name": "HELLDIVERS 2",
+      "ccu": 320000,
+      "followers": 640000,
+      "wishlistSignal": 390000,
+      "releaseDate": "2024-02-08",
+      "daysOld": 380,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromHotList": true,
+        "fromTop2Weeks": true
+      },
+      "price": "$39.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
+      "genres": [
+        "Co-op",
+        "Action"
+      ],
+      "categories": [
+        "Online Co-op"
+      ],
+      "shortDescription": "Co-op shooter that exploded quickly after launch.",
+      "isNewOrUpcoming": false,
+      "popularityScore": 5.3969,
+      "emergingScore": 0.3856
+    },
+    {
+      "appId": 1938090,
+      "name": "Last Epoch",
+      "ccu": 89000,
+      "followers": 210000,
+      "wishlistSignal": 145000,
+      "releaseDate": "2024-02-21",
+      "daysOld": 365,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true,
+        "fromHotList": true
+      },
+      "price": "$34.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/899770/header.jpg",
+      "genres": [
+        "ARPG",
+        "Loot"
+      ],
+      "categories": [
+        "Single-player"
+      ],
+      "shortDescription": "Rapidly growing ARPG with strong player-to-follower momentum.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 4.9035,
+      "emergingScore": 0.435
+    },
+    {
+      "appId": 999992,
+      "name": "Orbital Frontier",
+      "ccu": 9600,
+      "followers": 52000,
+      "wishlistSignal": 71000,
+      "releaseDate": "2025-01-12",
+      "daysOld": 46,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true,
+        "fromHotList": true
+      },
+      "price": "$24.99",
+      "headerImage": null,
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player"
+      ],
+      "shortDescription": "Fresh release with strong follow and active-player conversion.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 4.1801,
+      "emergingScore": 0.4129
+    },
+    {
+      "appId": 315210,
+      "name": "SULFUR",
+      "ccu": 7800,
+      "followers": 24000,
+      "wishlistSignal": 30000,
+      "releaseDate": "2024-10-28",
+      "daysOld": 120,
+      "comingSoon": false,
+      "sourceFlags": {
+        "fromNewReleases": true
+      },
+      "price": "$19.99",
+      "headerImage": "https://cdn.akamai.steamstatic.com/steam/apps/315210/header.jpg",
+      "genres": [
+        "Roguelite",
+        "Indie"
+      ],
+      "categories": [
+        "Early Access"
+      ],
+      "shortDescription": "Smaller title showing strong early traction relative to its size.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 3.9754,
+      "emergingScore": 0.4117
+    },
+    {
+      "appId": 999991,
+      "name": "Project Citadel Demo",
+      "ccu": 4200,
+      "followers": 38000,
+      "wishlistSignal": 62000,
+      "releaseDate": null,
+      "daysOld": 20,
+      "comingSoon": true,
+      "sourceFlags": {
+        "fromComingSoon": true,
+        "fromUpcomingList": true
+      },
+      "price": "Free Demo",
+      "headerImage": null,
+      "genres": [
+        "Action",
+        "Soulslike"
+      ],
+      "categories": [
+        "Early Access"
+      ],
+      "shortDescription": "Upcoming showcase title gathering attention ahead of launch windows.",
+      "isNewOrUpcoming": true,
+      "popularityScore": 3.9481,
+      "emergingScore": 0.4571
+    }
+  ]
+}

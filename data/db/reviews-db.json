@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-02-28T18:08:31.575Z",
+  "games": {},
+  "crawler": {
+    "running": false,
+    "startedAt": "2026-02-28T18:08:31.462Z",
+    "finishedAt": "2026-02-28T18:08:31.574Z",
+    "scanned": 0,
+    "stored": 0,
+    "failed": 0,
+    "message": "Crawler failed: fetch failed"
+  }
+}
